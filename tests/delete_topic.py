@@ -37,7 +37,7 @@ def delete_kafka_topic(bootstrap_servers, topic_name, timeout=10):
 if __name__ == "__main__":
     # Configuration
     bootstrap_servers = 'localhost:9092'  # Replace with your broker(s)
-    topic_to_delete = 'test-topic'        # Replace with the topic you want to delete
+    topic_to_delete = 'test-topicss'        # Replace with the topic you want to delete
 
     # Delete the topic
     delete_kafka_topic(bootstrap_servers, topic_to_delete)

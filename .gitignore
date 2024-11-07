@@ -1,0 +1,14 @@
+# ENV
+.env
+.venv
+
+# uv ENV
+.python-version
+uv.lock
+.vscode
+
+# vscode
+*/vscode
+
+# uv
+zookeeper.egg-info
