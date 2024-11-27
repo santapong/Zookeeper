@@ -1,25 +1,20 @@
-[tool.poetry]
+[project]
 name = "zookeeper"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-pandas = "2.2.2"
-selenium = "4.23.1"
-sqlalchemy = "2.0.32"
-fastapi = "0.112.2"
-dbt-core = "1.8.5"
-dbt-postgres = "1.8.2"
-psycopg2 = "2.9.9"
-confluent-kafka = "2.5.0"
-requests = "2.32.3"
-python-dotenv = "1.0.1"
-uvicorn = "^0.30.6"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "confluent-kafka>=2.6.1",
+    "dbt-core>=1.8.9",
+    "dbt-postgres>=1.8.2",
+    "fastapi>=0.115.5",
+    "pandas>=2.2.3",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.0.1",
+    "python-fasthtml>=0.10.0",
+    "requests>=2.32.3",
+    "selenium>=4.27.1",
+    "sqlalchemy>=2.0.36",
+    "uvicorn>=0.32.1",
+]
