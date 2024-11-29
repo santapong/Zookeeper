@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="CEze_BwPiBj2mxe--PSo" name="Page-1">
-        <mxGraphModel dx="896" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="481" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,7 +42,7 @@
                 <mxCell id="6" value="Database ( PG )" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="265" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Power Bi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="11" value="Metabase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="265" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="13" target="6" edge="1">
